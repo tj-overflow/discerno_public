@@ -51,7 +51,7 @@ Of the seven misread message types, four were injection attempts read as accepta
 
 ## Reasoning replay
 
-After a game, the demo shows how Discerno reasoned, move by move: what it believed about the person's style and priorities, whether it was still gathering information or already planning, and why it accepted, countered or held. It also compares its final reading with the priorities the person was actually given for the game, so a wrong reading is visible. In the game below, the person gave ground on price and service in a pattern Discerno read as protection-focused, while the priorities they had been given were money-focused.
+After a game, the demo shows how Discerno reasoned, move by move: what it believed about the person's style and priorities, whether it was still gathering information or already planning, and why it accepted, countered or held. It also compares its final reading with the priorities the person was actually given for the game, so a wrong reading is visible. In the game below, Discerno read the person as a steady negotiator focused on protection (the service tier and the breach credit), which matched the priorities they had been given.
 
 ![Reasoning replay: Discerno's final reading of the person, then each move with its stage and reason.](../assets/media/replay.png)
 
