@@ -46,9 +46,9 @@ The simulated seller cares most about money (the fee and the increase cap) and g
 
 **What happened.** Discerno's first offer has a low fee and every other term in the buyer's favor; after that it concedes only small amounts. The seller lowers the fee by between about $2,400 and $3,700 at each of its moves. At move 9 the seller also gives Discerno a 12-month contract and 90 days to pay, and lowers the increase cap to 2.9%. Discerno accepts. The fee is about $19,000 above Discerno's own last offer, but every other term has moved its way, and Discerno's calculation valued this package above bargaining on, given the chance that the seller walks away.
 
-## Interactive replay
+## Replay
 
-The [replay page](https://tj-overflow.github.io/discerno_public/demos/replay.html) plays back both negotiations step by step, with all six terms and play and step controls. It only replays these two recorded games; you cannot negotiate with Discerno there. Its source is [`demos/replay.html`](../demos/replay.html).
+The [replay page](https://tj-overflow.github.io/discerno_public/demos/replay.html) plays back both negotiations step by step, with all six terms and play and step controls. It only replays these two recorded games. Its source is [`demos/replay.html`](../demos/replay.html).
 
 A live negotiation with Discerno, including plain-English play and a replay of its reasoning, can be arranged on request: **taejun.oh5@gmail.com**.
 
