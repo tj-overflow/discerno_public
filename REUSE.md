@@ -9,6 +9,6 @@ Copyright 2026 Taejun Oh. The material in this repository is shared for viewing.
 | Replay page | `demos/replay.html`, including its code and the recorded negotiation data |
 | Screenshots | The PNG files under `assets/media/` |
 
-Third-party terms, legal exceptions and GitHub's platform rights are unaffected. This notice claims no exclusive rights over bare facts. The `.gitignore` file is not covered.
+Third-party terms, legal exceptions and GitHub's platform rights are unaffected. This notice claims no exclusive rights over bare facts.
 
 The Discerno negotiator, its configuration and its test data are not part of this repository, and these terms grant no rights to them.
