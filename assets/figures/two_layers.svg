@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="565" viewBox="0 0 1200 565" role="img" aria-labelledby="t d">
+  <title id="t">Discerno's two layers</title>
+  <desc id="d">A message from the other side goes to the plain-English layer, where a local language model reads it into contract terms and fixed rules check the reading. The checked terms go to the negotiator, which uses no language model: it learns the other side's bargaining style and priorities, plans three moves ahead and decides to accept, counter or walk away. The plain-English layer then words the reply, which is sent only if every number in it is unchanged.</desc>
+  <defs>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#52514e"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="565" fill="#fcfcfb"/>
+  <g font-family="Segoe UI, Arial, Helvetica, sans-serif" fill="#0b0b0b">
+    <text x="40" y="52" font-size="26" font-weight="700">Two layers: the language model reads and words, the negotiator decides</text>
+
+    <!-- Other side -->
+    <rect x="40" y="200" width="190" height="200" rx="10" fill="#ffffff" stroke="#c3c2b7" stroke-width="2"/>
+    <text x="135" y="285" font-size="20" font-weight="700" text-anchor="middle">The other side</text>
+    <text x="135" y="315" font-size="15" fill="#52514e" text-anchor="middle">a person writing</text>
+    <text x="135" y="335" font-size="15" fill="#52514e" text-anchor="middle">in plain English</text>
+
+    <!-- Plain-English layer -->
+    <rect x="330" y="100" width="390" height="440" rx="12" fill="#e9f7f1" stroke="#1baf7a" stroke-width="2"/>
+    <text x="350" y="134" font-size="21" font-weight="700">Plain-English layer</text>
+    <text x="350" y="158" font-size="15" fill="#52514e">a local language model, checked by fixed rules</text>
+
+    <rect x="350" y="178" width="350" height="70" rx="8" fill="#ffffff" stroke="#c3c2b7"/>
+    <text x="366" y="206" font-size="16" font-weight="700">1. Read</text>
+    <text x="366" y="230" font-size="15">The model turns the message into contract terms.</text>
+
+    <rect x="350" y="264" width="350" height="128" rx="8" fill="#ffffff" stroke="#c3c2b7"/>
+    <text x="366" y="292" font-size="16" font-weight="700">2. Check</text>
+    <text x="366" y="316" font-size="15">Fixed rules check every reading:</text>
+    <text x="378" y="340" font-size="15">• impossible or unusual values are asked back</text>
+    <text x="378" y="364" font-size="15">• an acceptance or walk-away waits until</text>
+    <text x="390" y="382" font-size="15">the person confirms it</text>
+
+    <rect x="350" y="430" width="350" height="92" rx="8" fill="#ffffff" stroke="#c3c2b7"/>
+    <text x="366" y="458" font-size="16" font-weight="700">4. Word the reply</text>
+    <text x="366" y="482" font-size="15">The model writes the reply. It is sent only</text>
+    <text x="366" y="504" font-size="15">if every number in it is unchanged.</text>
+
+    <!-- Negotiator -->
+    <rect x="820" y="100" width="340" height="440" rx="12" fill="#eef4fc" stroke="#2a78d6" stroke-width="2"/>
+    <text x="840" y="134" font-size="21" font-weight="700">Negotiator</text>
+    <text x="840" y="158" font-size="15" fill="#52514e">no language model: numbers and rules only</text>
+
+    <rect x="840" y="178" width="300" height="94" rx="8" fill="#ffffff" stroke="#c3c2b7"/>
+    <text x="856" y="206" font-size="16" font-weight="700">Learn</text>
+    <text x="856" y="230" font-size="15">From each offer, update its estimate</text>
+    <text x="856" y="252" font-size="15">of the other side's style and priorities.</text>
+
+    <rect x="840" y="288" width="300" height="94" rx="8" fill="#ffffff" stroke="#c3c2b7"/>
+    <text x="856" y="316" font-size="16" font-weight="700">Plan</text>
+    <text x="856" y="340" font-size="15">Look three moves ahead, weighing the</text>
+    <text x="856" y="362" font-size="15">chance that the other side walks away.</text>
+
+    <rect x="840" y="430" width="300" height="92" rx="8" fill="#ffffff" stroke="#c3c2b7"/>
+    <text x="856" y="458" font-size="16" font-weight="700">3. Decide</text>
+    <text x="856" y="482" font-size="15">Accept, counter with a new package,</text>
+    <text x="856" y="504" font-size="15">or walk away.</text>
+
+    <!-- Arrows -->
+    <g stroke="#52514e" stroke-width="2.5" fill="none" marker-end="url(#a)">
+      <path d="M230 240 L348 213"/>
+      <path d="M700 328 L838 230"/>
+      <path d="M990 272 L990 286"/>
+      <path d="M990 382 L990 428"/>
+      <path d="M838 476 L702 476"/>
+      <path d="M350 476 L232 370"/>
+    </g>
+    <g font-size="14" fill="#52514e">
+      <text x="246" y="214">message</text>
+      <text x="726" y="262">checked</text>
+      <text x="726" y="280">terms</text>
+      <text x="744" y="466">decision</text>
+      <text x="250" y="452">reply</text>
+    </g>
+  </g>
+</svg>
