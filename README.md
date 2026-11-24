@@ -18,7 +18,7 @@ After both sides hold their offers, Discerno breaks the deadlock at move 9. It a
 |---|---:|---:|---:|---:|---|---:|
 | Move 10 | $126,842 | 36 months | 30 days | 7.5% a year | Premium | 5% |
 
-[Both example negotiations, move by move](docs/examples.md)
+[Both example negotiations, move by move](docs/examples.md) | [Watch them replayed](https://tj-overflow.github.io/discerno_public/demos/replay.html)
 
 ## The problem
 

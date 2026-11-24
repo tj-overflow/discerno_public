@@ -48,7 +48,7 @@ The simulated seller cares most about money (the fee and the increase cap) and g
 
 ## Interactive replay
 
-[`demos/replay.html`](../demos/replay.html) replays both negotiations step by step, with all six terms and play controls. Download the file and open it in a browser; GitHub shows the page's code instead of running it.
+The [replay page](https://tj-overflow.github.io/discerno_public/demos/replay.html) plays back both negotiations step by step, with all six terms and play and step controls. It only replays these two recorded games; you cannot negotiate with Discerno there. Its source is [`demos/replay.html`](../demos/replay.html).
 
 A live negotiation with Discerno, including plain-English play and a replay of its reasoning, can be arranged on request: **taejun.oh5@gmail.com**.
 
